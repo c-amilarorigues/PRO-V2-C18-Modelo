@@ -62,9 +62,9 @@ function draw() {
   //   path.x = height/2;
   // }
 
-  // if(path.y > height ){
-  //   path.x = height/2;
-  // }
+   if(path.y > height ){
+   path.x = height/2;
+   }
 
   // if(path.x > height ){
   //   path.y = height;
